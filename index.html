@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="images/s-fav-icon.png" type="image/x-icon" />
+  <!-- link bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- aos animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <title>Samuel</title>
+</head>
+
+<body>
+  <style></style>
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-3">
+        <nav id="navbar-example3"
+          class="navbar navbar-light bg-light flex-column align-items-stretch p-3 navSide navBg " data-aos="fade-right"
+          data-aos-duration="2500">
+          <div class="text-center pb-3">
+            <img class="imgProfile" src="images/eu.jpg" alt="" />
+          </div>
+          <nav class="nav nav-pills flex-column">
+            <a class="nav-link" href="#item-1">Sobre mim</a>
+            <a class="nav-link" href="#item-2">Experiência</a>
+            <a class="nav-link" href="#item-3">Educação</a>
+            <nav class="nav nav-pills flex-column">
+              <a class="nav-link ms-3 my-1" href="#item-3-1">Educ. Complementar</a>
+            </nav>
+            <a class="nav-link" href="#item-4">Competências</a>
+          </nav>
+        </nav>
+        <div class="pt-3" data-aos="fade-right" data-aos-duration="2500">
+          <ul class="icons">
+            <li class="pb-2"><a target="_blank" id="iconText"
+                href="https://api.whatsapp.com/send?phone=5531996520755"><i class="bi bi-whatsapp iconColors"> Whatsapp
+                  / Telefone</i></a></li>
+            <li class="pb-2"><a target="_blank" id="iconText"
+                href="https://www.linkedin.com/in/samuel-messias-b35189211/"><i class="bi bi-linkedin iconColors">
+                  LinkedIn</i></a></li>
+            <li class="pb-2"><a target="_blank" id="iconText"
+                href="https://mail.google.com/mail/u/smuelmfs76@gmail.com/#compose"><i
+                  class="bi bi-envelope-at iconColors"> E-mail</i></a></li>
+            <li><a target="_blank" id="iconText" href="https://github.com/smuelmfs"><i class="bi bi-github iconColors">
+                  GitHub</i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0" class="col scrollSpy"
+        data-aos="fade-left" data-aos-duration="2500">
+        <h4 id="item-1" class="display-3 pt-5">Sobre mim</h4>
+        <p class="text-resume sectionPadding">
+          Me chamo Samuel, tenho 20 anos e estou desenvolvendo tudo o que eu aprendi desde então no desenvolvimento web.
+          Com o aperfeiçoamento meus conhecimentos, atualmente estou estudando novas tecnologias para melhorar meu
+          perfil profissional, busco ser um desenvolvedor Fullstack de excelência e deixar meu marca onde eu quer que eu
+          vá.
+        </p>
+        <h4 id="item-2" class="display-3 pt-5">Experiência</h4>
+        <p class="text-resume sectionPadding">
+          Minha primeira vaga no ramo de tecnologia foi em uma empresa de Marketing Digital, Aquarium Tech. Trabalhei lá
+          entre Dezembro de 2021 até agosto de 2022.
+          Atualmente estou a procura da minha segunda vaga na área de tecnologia, e começando também como Freelancer
+          fazendo alguns projetos independentes.
+        </p>
+        <h4 id="item-3" class="display-3 pt-5">Educação</h4>
+        <p>
+          Bacharel em Ciência da Computação (UNIBH) | Fev 2020 - Nov 2023
+        </p>
+        <h5 id="item-3-1" class="display-5 pt-2">Educ. Complementar</h5>
+        <ul>
+          <li>Curso One Bit Code - FullStack (em andamento)</li>
+          <li>Curso Oracle Academy - Java Foundations Database Foundations</li>
+          <li>Curso Oracle Academy - Database Foundations</li>
+        </ul>
+        <h5 id="item-3-2" class="display-5 pt-1">Idiomas</h5>
+        <ul class="sectionPadding">
+          <li>Inglês - Intermediário</li>
+          <li>Espanhol - Básico</li>
+        </ul>
+        <div class="container sectionPadding">
+          <div class="row">
+            <div id="carouselExampleCaptions" class="carousel slide imgCursos pb-5" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="100000">
+                  <img src="images/certificados/certificado_onebitcode_HTML5.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p id="pCarousel">Certificado Módulo HTML</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="100000">
+                  <img src="images/certificados/certificado_onebitcode_CSS3.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p id="pCarousel">Certificado Módulo CSS</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="100000">
+                  <img src="images/certificados/JFo.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p id="pCarousel">Certificado em fundamentos Java</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="100000">
+                  <img src="images/certificados/DFo.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <p id="pCarousel">Certificado em fundamentos em Banco de dados</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <h4 id="item-4" class="display-3 pt-5">Competências</h4>
+        <ul class="pb-5">
+          <li>Fácil adaptação</li>
+          <li>Ótimo relacionamento interpessoal</li>
+          <li>Proativo</li>
+          <li>Comunicativo</li>
+          <li>Flexível</li>
+          <li>Dinâmico</li>
+          <li>Solução de problemas</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid footer">
+    <span class="me-4 link"> Samuel Messias &copy; 2022 </span>
+    <!-- <a href="#" target="_blank" id="footerLink" class="me-4">
+      Instagram</a>
+    <a href="#" target="_blank" id="footerLink" class="me-4"> LinkedIn</a>
+    <a href="#" target="_blank" id="footerLink"> GitHub</a> -->
+  </footer>
+</body>
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script>
+  var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    target: "#navbar-example",
+  });
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>

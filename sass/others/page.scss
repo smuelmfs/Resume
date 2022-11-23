@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ffffffff;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+body {
+  background-color: #181127;
+  background-image: radial-gradient(at 47% 33%,
+      hsl(250.47, 77%, 40%) 0,
+      transparent 59%),
+    radial-gradient(at 82% 65%, hsl(14.73, 39%, 11%) 0, transparent 55%);
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+
+.navSide {
+  border-radius: 10px;
+  backdrop-filter: blur(0px) saturate(153%) !important;
+  -webkit-backdrop-filter: blur(0px) saturate(153%) !important;
+  background-color: rgba(17, 25, 40, 0.69) !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(255, 255, 255, 0.125) !important;
+}
+
+.nav-link.active {
+  color: #fff;
+  background-color: #261d60 !important;
+}
+
+.nav-link {
+  color: #9065eb;
+
+  &:hover {
+    color: #3e2c66;
+  }
+}
+
+.imgProfile {
+  width: 200px;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid black;
+}
+
+.scrollSpy {
+  height: 650px;
+  overflow: auto;
+  position: relative;
+  font-size: 25px;
+  backdrop-filter: blur(0px) saturate(153%);
+  -webkit-backdrop-filter: blur(0px) saturate(153%);
+  background-color: rgba(17, 25, 40, 0.69);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.icons {
+  color: #181127;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.iconColors {
+  color: #9065eb;
+
+  &:hover {
+    color: #3e2c66;
+  }
+}
+
+#iconText {
+  text-decoration: none;
+}
+
+.imgCursos {
+  width: 600px;
+}
+
+.footer {
+  height: 25vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pCarousel {
+  background-color: black;
+}
+
+#footerLink {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: darkgray;
+  }
+}
+
+//media query
